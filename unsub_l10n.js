@@ -4,15 +4,12 @@
 $(function() {
   String.toLocaleString({
     "fr": {
-      "Update preferences for":                          "Mettre à jour les préférences pour",
-      "Unsubscribe from":                                "Se désabonner de",
-      "Unsubscribe from all":                            "Se désabonner de tout",
-      "has been unsubscribed from":                      "a été désabonné de",
-      "has been unsubscribed from all marketing emails": "a été désabonné de tous les emails de marketing",
-    },
-    // "de": {
-    //   "%unsubscribe_from_all": "Abmelden von allen",
-    // }
+      "Update preferences for":     "Mettre à jour les préférences pour",
+      "Unsubscribe from":           "Se désabonner de",
+      "Unsubscribe from all":       "Se désabonner de tout",
+      "has been unsubscribed from": "a été désabonné de",
+      "all marketing emails":       "tous les emails de marketing",
+    }
   });
 
   $(".localizable").each(function () {
